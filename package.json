@@ -1,0 +1,43 @@
+{
+  "name": "s3uploader-minio",
+  "main": "./lib/s3uploader",
+  "version": "1.0.0",
+  "description": "Markdown通过托放文件，复制粘贴。将文件上传到 Minio 对象存储上",
+  "keywords": [
+    "S3",
+    "Markdown",
+    "upload",
+    "drag",
+    "minio",
+    "image"
+  ],
+  "author": {
+    "name": "yinxiulong",
+    "email": "yinxiulong@aliyun.com",
+    "url": "https://github.com/yinxiulong/s3uploader-minio",
+    "description": "特别感谢tearoom6 ， 本插件的是由 tearoom6 的 s3uploader 修改得来"
+  },
+  "repository": "https://github.com/yinxiulong/s3uploader-minio",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.14.0",
+    "fs": "^0.0.1-security",
+    "minio": "^7.0.18",
+    "path": "^0.12.7",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  }
+}

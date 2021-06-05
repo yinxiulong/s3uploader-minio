@@ -1,0 +1,20 @@
+{
+  "context-menu": {
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "S3 Uploader",
+          "submenu": [
+            {
+              "label": "Settings",
+              "command": "s3uploader-minio:openSettingsView"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
