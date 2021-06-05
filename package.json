@@ -1,8 +1,8 @@
 {
   "name": "s3uploader-minio",
   "main": "./lib/s3uploader",
-  "version": "1.0.0",
-  "description": "Markdown通过托放文件，复制粘贴。将文件上传到 Minio 对象存储上",
+  "version": "1.0.1",
+  "description": "Atom 在编辑 Markdown通过拖拽文件，复制粘贴。将文件自动上传到 Minio 对象存储上",
   "keywords": [
     "S3",
     "Markdown",
